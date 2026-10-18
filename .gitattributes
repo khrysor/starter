@@ -1,0 +1,18 @@
+# Normalize line endings on checkout/commit
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.md text
+*.txt text
+*.yml text
+*.yaml text
+*.json text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary

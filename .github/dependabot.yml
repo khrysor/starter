@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # Keep GitHub Actions up to date. This applies to every repository.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+
+  # To track your project's dependencies, add another entry here using the
+  # "package-ecosystem" that matches your setup (for example "pip", "cargo",
+  # "gomod", "bundler", ...). The directory should point at your manifest file.
+  #
+  # - package-ecosystem: "<your-ecosystem>"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
